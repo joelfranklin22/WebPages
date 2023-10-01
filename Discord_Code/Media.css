@@ -1,0 +1,192 @@
+@media only screen and (max-width:800px) {
+    .background-image img{
+        padding-bottom: 170px;
+    }
+    .nav-list a{
+        display: none;
+    }
+    .Right-Side img{
+        display: none;
+    }
+    .Discord-Logo img{
+        width: 35px;
+    }
+    .discord{
+        position:absolute;
+        left:7%;
+    }
+    .Button {
+        padding: 5px 5px;
+    }
+    .Menu-bar i{
+        position: absolute;
+        left:82%;
+        color: white;
+        font-size:29px;
+        /* margin-top: 10px; */
+        top:3.5%;
+    }
+    .Login-Button{
+        position: absolute;
+        left:50%;
+    }
+/* HERO CONTENT STARTS HERE */
+    .hero-text{
+        position: absolute;
+        top:16%;
+        max-width: 200px;
+        font-size:16px;
+    }
+    .hero-Subtitle-1{
+        display: none;
+    }
+    .hero-Subtitle{
+        position: absolute;
+        font-size: 1rem;
+        left: 20px;
+        max-width:300px;
+        top:33%;
+    }
+/* HERO CONTENT ENDS HERE */
+.hero-link-1 {
+    position: absolute;
+    margin-top:420px;
+    left:85%;
+}
+.hero-link-1 a{
+    padding:10px 40px 10px 40px;
+    padding:5px 80px;
+    font-size:19px;
+    /* white-space: nowrap; */
+}
+i{
+    position: absolute;
+    left:18%;
+    top:38%;
+}
+.hero-link-2{
+    position: absolute;
+    right:45px;
+    }
+.hero-link-2 button{
+    position: absolute;
+    margin-top:20px;
+    margin-left: -240px;
+}
+.hero-link{
+    padding:10px 40px 10px 40px;
+}
+.Sub{
+    position: absolute;
+    /* padding-bottom: 20px; */
+}
+.Left-Side img{
+    overflow:visible;
+    position: absolute;
+    width:300px;
+    left:200px;
+    bottom:0px;
+}
+/* CONTENT MEDIA STARTING */
+    .Study-group img{
+        position:relative;
+        overflow: visible;
+        width: 250px;
+        right: 62%;
+        top:-35%;
+        z-index: 1;
+        font-size: 1.1rem;
+    }
+    .Study-Title{
+        position: absolute;
+        z-index: 2;
+        left:35px;
+        padding-top: 100px;
+        font-size:20px;
+        max-width:250px;
+    }
+    .Study-About{
+        position: absolute;
+        padding-top: 300px;
+        font-size:1rem;
+        left: 35px;
+        z-index: 3;
+        line-height:1.63;
+        font-family: 'Josefin Slab', serif;
+    }
+    .section2{
+        margin-top: 200px;
+        padding: 300px 0 0 0;
+    }
+    .Voice-Image img{
+        position: relative;
+        width:250px;
+        top:-250px;
+        left:-20px;
+        z-index: 4;
+    }
+    .Voice-Title{
+        position:absolute;
+        font-size: 20px;
+        top:55%;
+        z-index: 5;
+    }
+    .Voice-About{
+        position: absolute;
+        z-index: 6;
+        font-size:17px;
+        max-width:250px;
+        top:67%;
+    }
+    .Community img{
+            position: relative;
+            width: 280px;
+            z-index: 7;
+            margin-top:-180px;
+            left: 10px;
+    }
+    .Community-Title{
+        position: absolute;
+        left: 20px;
+        top:58%;
+        z-index: 8;
+        font-size:17px;
+    }
+    .Community-About{
+        position: absolute;
+        left: 20px;
+        top: 67%;
+        z-index: 9;
+        font-size:1rem;
+        max-width: 250px;
+    }
+    .Tech img{
+        position: relative;
+        width: 250px;
+        top:-80px;
+        right:5%;
+        z-index: 10;
+    }
+    .Tech-Title{
+        position: absolute;
+        left: 20px;
+        font-size: 16px;
+        max-width: 400px;
+        top:5%;
+        z-index: 11;
+    }
+    .Tech-About{
+        position: absolute;
+        left: 20px;
+        text-align: left;
+        font-size:1rem;
+        top:16%;
+        max-width: 280px;
+        z-index: 12;
+    }
+}
+@media screen and (min-width:800px) {
+    .Menu-bar{
+        display: none;
+    }
+}
