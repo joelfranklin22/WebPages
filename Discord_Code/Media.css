@@ -1,4 +1,12 @@
+@media screen and (min-width:800px) {
+    .Menu-bar{
+        display: none;
+    }
+}
 @media only screen and (max-width:800px) {
+    /* *{
+        overflow-x: hidden;
+    } */
     .background-image img{
         padding-bottom: 170px;
     }
@@ -23,7 +31,6 @@
         left:82%;
         color: white;
         font-size:29px;
-        /* margin-top: 10px; */
         top:3.5%;
     }
     .Login-Button{
@@ -33,19 +40,22 @@
 /* HERO CONTENT STARTS HERE */
     .hero-text{
         position: absolute;
-        top:16%;
+        top:12%;
         max-width: 200px;
         font-size:16px;
     }
-    .hero-Subtitle-1{
-        display: none;
-    }
+    /* .hero-Subtitle-1{
+        display:initial;
+        
+    } */
     .hero-Subtitle{
         position: absolute;
-        font-size: 1rem;
+        font-size:16px;
         left: 20px;
-        max-width:300px;
-        top:33%;
+        text-align: left;
+        text-wrap: wrap;
+        /* max-width:350px; */
+        top:27%;
     }
 /* HERO CONTENT ENDS HERE */
 .hero-link-1 {
@@ -103,7 +113,8 @@ i{
         left:35px;
         padding-top: 100px;
         font-size:20px;
-        max-width:250px;
+        min-width:250px;
+        max-width:300px;
     }
     .Study-About{
         position: absolute;
@@ -112,30 +123,38 @@ i{
         left: 35px;
         z-index: 3;
         line-height:1.63;
+        min-width:250px;
+        max-width:300px;
         font-family: 'Josefin Slab', serif;
     }
     .section2{
         margin-top: 200px;
-        padding: 300px 0 0 0;
+        padding: 300px 0 150px 0;
     }
     .Voice-Image img{
-        position: relative;
+        position:absolute;
         width:250px;
-        top:-250px;
-        left:-20px;
+        /* top:-250px; */
+        bottom:50%;
+        left:10%;
         z-index: 4;
     }
     .Voice-Title{
         position:absolute;
         font-size: 20px;
+        left: 35px;
         top:55%;
         z-index: 5;
+        min-width:250px;
+        max-width:300px;
     }
     .Voice-About{
         position: absolute;
         z-index: 6;
-        font-size:17px;
-        max-width:250px;
+        left: 35px;
+        font-size:1rem;
+        min-width:250px;
+        max-width:300px;
         top:67%;
     }
     .Community img{
@@ -147,18 +166,21 @@ i{
     }
     .Community-Title{
         position: absolute;
-        left: 20px;
+        left: 35px;
         top:58%;
         z-index: 8;
         font-size:17px;
+        min-width:250px;
+        max-width:300px;
     }
     .Community-About{
         position: absolute;
-        left: 20px;
+        left: 35px;
         top: 67%;
         z-index: 9;
         font-size:1rem;
-        max-width: 250px;
+        min-width:250px;
+        max-width:300px;
     }
     .Tech img{
         position: relative;
@@ -169,24 +191,25 @@ i{
     }
     .Tech-Title{
         position: absolute;
-        left: 20px;
+        left: 35px;
         font-size: 16px;
         max-width: 400px;
         top:5%;
         z-index: 11;
+        min-width:250px;
+        max-width:300px;
     }
     .Tech-About{
         position: absolute;
-        left: 20px;
+        left: 35px;
         text-align: left;
         font-size:1rem;
         top:16%;
         max-width: 280px;
         z-index: 12;
     }
-}
-@media screen and (min-width:800px) {
-    .Menu-bar{
-        display: none;
+    .sparkles img{
+        position: absolute;
+        width: 100px;
     }
 }
