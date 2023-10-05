@@ -11,12 +11,12 @@ body{
     } 
 .Right-Side{
     position: absolute;
-    right:-110px;
+    left: 74%;
     bottom: 0;
 }
 .Left-Side{
     position: absolute;
-    left:-275px;
+    right: 72.5%;
     bottom: 0;
 }  
 .Nav-Bar{
